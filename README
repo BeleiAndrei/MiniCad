@@ -1,0 +1,7 @@
+	In pachetul shapes avem interfata Shape(ce va avea rolul de a face clasele "visitable") ce
+va fii implementata in clasele: Circle, Diamond, Line, Polygon, Rectangle, Square si Triangle
+Clasa singleton ShapeFactory va genera Shape-uri in functie de inputul primit.
+	In pachetul drawing avem interfata Painter(ce va avea rolul de a faca clasele "visitor") si
+va fii implementata in clasa singleton Image ce viziteaza clasele de tip Shape si deseneaza
+figurile in functie de argumentele date in in metoda getArgs. Clasa Utils din acest pachet are o singura metoda ce este folosita la extragerea codului de culori.
+	Gestionarea inputului se va face in clasa Main.
