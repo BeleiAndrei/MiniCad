@@ -1,3 +1,7 @@
+	Design Patterns: Visitor, Factory, Singleton
+	
+	
+	
 	In pachetul shapes avem interfata Shape(ce va avea rolul de a face clasele "visitable") ce
 va fii implementata in clasele: Circle, Diamond, Line, Polygon, Rectangle, Square si Triangle
 Clasa singleton ShapeFactory va genera Shape-uri in functie de inputul primit.
